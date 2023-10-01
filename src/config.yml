@@ -1,0 +1,26 @@
+model:
+  version: 1.0
+  path: models/artifacts/20230723183126/pipeline.joblib
+  type: XGBClassifier
+  example: {
+    account_status: A11,
+    duration: 6,
+    credit_history: A34,
+    purpose: A43,
+    credit_amount: 1169,
+    savings: A65,
+    employment: A75,
+    installment_rate: 4,
+    personal_status_and_sex: A93,
+    other_debtors: A101,
+    residence_years: 4,
+    property: A121,
+    age: 67,
+    other_installments: A143,
+    housing: A152,
+    number_of_credits: 2,
+    job: A173,
+    number_of_people_liable: 1, 
+    telephone: A192,
+    foreign_worker: A201,
+  }
